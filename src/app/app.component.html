@@ -1,0 +1,18 @@
+<main class="main">
+  <div class="content">
+    <div class="left-side">
+      <img
+        src="../assets/goldenhippo-wordmark+(2)+(1).png"
+        alt=""
+        class="company-image"
+      />
+      <h1>Hello, {{ currentUser.Name }}</h1>
+      <app-user-profile-component
+        [user]="currentUser"
+        (profileClick)="onProfileClick()"
+      ></app-user-profile-component>
+    </div>
+  </div>
+</main>
+
+<router-outlet />

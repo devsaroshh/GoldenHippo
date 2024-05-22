@@ -1,0 +1,11 @@
+.divider {
+    height: 1px;
+    width: 100%;
+    background: var(--red-to-pink-to-purple-horizontal-gradient);
+    margin-block: 1.5rem;
+}
+
+.profile-image{
+    margin-top: 25px;
+    width: 10%;
+}
